@@ -1,24 +1,12 @@
-# README
+![form builder ruby on rails](https://f001.backblazeb2.com/file/webcrunch/formbuilder-ruby-on-rails.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# How to use FormBuilder in Ruby on Rails
 
-Things you may want to cover:
+Ruby on Rails ships with form helpers based in Ruby out of the box. These helpers are helpful for dynamically generating HTML fields on forms that pertain to the data layer backed by ActiveRecord in a given application.
 
-* Ruby version
+When generating a new resource in rails a common path for many developers is to scaffold a new model. A scaffold contains everything you need from the data side to the front end views. This practice is a big time saver for a developer looking to be extremely productive.
 
-* System dependencies
+When generating such a resource there is commonly a new form view partial included. The form is how data goes from an end user to a database. There's a lot to know about how Rails handles forms in a given app but this guide is focused on customizing the default form helper methods and/or creating your own from scratch.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Read the full article and watch the video](https://web-crunch.com/posts/how-to-use-formbuilder-in-ruby-on-rails)
